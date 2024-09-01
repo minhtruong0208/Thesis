@@ -1,0 +1,7 @@
+flask
+pymongo
+opencv-python
+numpy
+torch
+ultralytics
+deepface
