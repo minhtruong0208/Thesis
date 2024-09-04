@@ -57,11 +57,13 @@ app.UseStaticFiles(new StaticFileOptions
     RequestPath = "/videos"
 });
 
+var path = Path.Combine(Directory.GetCurrentDirectory(), "Data", "UnknownFaces");
 app.UseStaticFiles(new StaticFileOptions
 {
-    FileProvider = new PhysicalFileProvider(Path.Combine("D:", "TaiLieuHocTap", "Thesis", "Data", "UnknownFaces")),
+    FileProvider = new PhysicalFileProvider(path),
     RequestPath = "/unknown-faces"
 });
+
 
 var dataPath = Path.Combine(Directory.GetCurrentDirectory(), "..", "Data");
 app.UseStaticFiles(new StaticFileOptions
