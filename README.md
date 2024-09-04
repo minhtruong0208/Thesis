@@ -50,6 +50,32 @@ This project is an AI-powered student attendance system that uses video footage 
    npm install
    ```
 ## Usage
+### Data Organization
+The system requires a specific data structure for storing reference images used in face recognition:
+
+1. All reference images are stored in the `Data/Database` directory.
+2. Within this directory, create a separate folder for each person.
+3. Name each folder with the person's name or unique identifier.
+4. Place the reference images for each person in their respective folder.
+
+Example structure:
+```
+Data/
+├── Database/
+│   ├── John_Doe/
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── image3.jpg
+│   ├── Jane_Smith/
+│   │   ├── image1.jpg
+│   │   └── image2.jpg
+│   └── Alice_Johnson/
+│       ├── image1.jpg
+│       ├── image2.jpg
+│       └── image3.jpg
+```
+Or you can watch in Data folder to known how data is organized.
+
 1. Start the Flask server:
    ```
    python app.py
