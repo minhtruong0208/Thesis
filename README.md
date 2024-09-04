@@ -24,9 +24,15 @@ This project is an AI-powered student attendance system that uses video footage 
 - Database: MongoDB
 
 ## Installation
-### 1. Clone the repository
-First, clone the repository to your local machine using the following command:
+### Prerequisites
+- Python 3.10.11
+- .NET Core 8
+- NodeJS 20.12.2
 
-```bash
-git clone https://github.com/minhtruong0208/Thesis.git
-cd your-repo
+1. Clone the repository:
+   ```
+   git clone https://github.com/minhtruong0208/ai-powered-attendance-system.git
+   cd ai-powered-attendance-system
+   ```
+
+
