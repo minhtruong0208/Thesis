@@ -32,7 +32,35 @@ This project is an AI-powered student attendance system that uses video footage 
 1. Clone the repository:
    ```
    git clone https://github.com/minhtruong0208/ai-powered-attendance-system.git
-   cd ai-powered-attendance-system
+   ```
+2. Set up the Python environment:
+   ```
+   cd ai-powered-attendance-system/app
+   python -m venv venv
+   pip install -r requirements.txt
+   ```
+3. Set up the ASP.NET Core project:
+   ```
+   cd ai-powered-attendance-system/AttendanceSystemAPI
+   dotnet restore
+   ```
+4. Set up the Vue.js project:
+   ```
+   cd ai-powered-attendance-system/client-app
+   npm install
+   ```
+## Usage
+1. Start the Flask server:
+   ```
+   python app.py
    ```
 
+2. Start the ASP.NET Core server:
+   ```
+   dotnet run
+   ```
 
+3. Start the Vue.js development server:
+   ```
+   npm run serve
+   ```
