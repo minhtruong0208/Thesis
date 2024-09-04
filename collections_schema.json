@@ -1,0 +1,50 @@
+{
+    "teaching_assignments": {
+        "_id": "ObjectId",
+        "lecturer_id": "str",
+        "class_id": "str",
+        "subject_id": "str",
+        "start_date": "datetime",
+        "end_date": "datetime"
+    },
+    "students": {
+        "_id": "ObjectId",
+        "name": "str",
+        "face_path": "str",
+        "class_id": "str",
+        "attendance_records": [
+            {
+                "date": "str",
+                "status": "str"
+            }
+        ],
+        "email": "str"
+    },
+    "classes": {
+        "_id": "str",
+        "class_name": "str"
+    },
+    "employees": {
+        "_id": "ObjectId",
+        "name": "str",
+        "email": "str",
+        "phone_number": "str",
+        "role": "str",
+        "Employee_id": "str"
+    },
+    "subjects": {
+        "_id": "ObjectId",
+        "subject_id": "str",
+        "subject_name": "str",
+        "credits": "int"
+    },
+    "videos": "Empty collection",
+    "users": {
+        "_id": "ObjectId",
+        "Password": "str",
+        "Username": "str",
+        "Roles": "str",
+        "Employee_id": "str"
+    },
+    "unknown_persons": "Empty collection"
+}
