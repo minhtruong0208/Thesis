@@ -6,6 +6,7 @@ This project is an AI-powered student attendance system that uses video footage 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
+- [Usage](#usage)
 
 ## Features
 - Detecting and tracking faces in video frames
@@ -75,7 +76,10 @@ Data/
 │       └── image3.jpg
 ```
 Or you can watch in Data folder to known how data is organized.
+### MongoDB Database
+The structure of collections in MongoDB in this project is shown in collections_schema.json. You can create your database in MongoDB, mine is AttendanceSystem. Make sure the collections is similar to the collections_schema.json file.
 
+### Run
 1. Start the Flask server:
    ```
    python app.py
