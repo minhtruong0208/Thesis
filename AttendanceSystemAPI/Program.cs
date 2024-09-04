@@ -57,7 +57,7 @@ app.UseStaticFiles(new StaticFileOptions
     RequestPath = "/videos"
 });
 
-var path = Path.Combine(Directory.GetCurrentDirectory(), "Data", "UnknownFaces");
+var path = Path.Combine(Directory.GetCurrentDirectory(), "..", "Data", "UnknownFaces");
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(path),
