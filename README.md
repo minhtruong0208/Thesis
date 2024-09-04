@@ -5,6 +5,7 @@ This project is an AI-powered student attendance system that uses video footage 
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Installation](#installation)
 
 ## Features
 - Detecting and tracking faces in video frames
@@ -21,4 +22,11 @@ This project is an AI-powered student attendance system that uses video footage 
   - JavaScript with Vue.js
 - YOLOv8 (for face detection), DeepFace (for face recognition)
 - Database: MongoDB
-  
+
+## Installation
+### 1. Clone the repository
+First, clone the repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/minhtruong0208/Thesis.git
+cd your-repo
