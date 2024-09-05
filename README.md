@@ -63,19 +63,19 @@ Example structure:
 ```
 Data/
 ├── Database/
-│   ├── John_Doe/
+│   ├── Person1/
 │   │   ├── image1.jpg
 │   │   ├── image2.jpg
 │   │   └── image3.jpg
-│   ├── Jane_Smith/
+│   ├── Person2/
 │   │   ├── image1.jpg
 │   │   └── image2.jpg
-│   └── Alice_Johnson/
+│   └── Person3/
 │       ├── image1.jpg
 │       ├── image2.jpg
 │       └── image3.jpg
 ```
-Or you can watch in Data folder to known how data is organized.
+Or you can watch in Data folder to known how files are organized.
 ### MongoDB Database
 The structure of collections in MongoDB in this project is shown in collections_schema.json. You can create your database in MongoDB, mine is AttendanceSystem. Make sure the collections is similar to the collections_schema.json file.
 
