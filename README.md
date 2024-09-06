@@ -1,6 +1,6 @@
 # AI-Based Student Attendance System on videos
 
-This project is an AI-powered student attendance system that uses video footage to recognize students' faces and automates the attendance process. It makes use of a variety of cutting-edge technologies, including Python, C#, JavaScript, and frameworks like ASP.NET Core, Flask, and Vue. This project was build for my graduation thesis at HCMC University of Science, scored 9.8/10 by thesis committee.
+This project is an AI-powered student attendance system that uses video footage to recognize students' faces and automates the attendance process. It makes use of a variety of cutting-edge technologies, including Python, C#, JavaScript, and frameworks like ASP.NET Core, Flask, and Vue. This project was build for my graduation thesis at HCMC University of Science
 
 ## Table of Contents
 - [Features](#features)
